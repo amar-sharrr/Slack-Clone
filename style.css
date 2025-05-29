@@ -43,7 +43,6 @@ li a{
     text-decoration: none;
     color: black;
 }
-/* hover, active effect */
 ul :nth-child(3):active {
     border: 2px dashed #611f69;
     padding: 4px 12px;
@@ -75,8 +74,6 @@ ul :nth-child(5):hover {
 .header-a :nth-child(4):hover {
     background-color:  #5a1c61;
  }
-/* ----- */
-
 .header-a {
     display: flex;
     align-items: center;
@@ -403,14 +400,7 @@ ul :nth-child(5):hover {
     color: #1264a3;
     margin-left: 130px;
 }
- /* .box-img:hover {
-    height: 220px;
-    width: 283px;
-    padding: 14px;
-}  */
 .boxes:hover {
-    /* height: 460px;
-    width: 303px; */
     transform: scale(1.1);
 }
 .almost-footer {
